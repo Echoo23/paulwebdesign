@@ -1,1 +1,162 @@
-ecoexample.uy
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">
+            <img src="img/logo.png" alt="image">
+        </a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Customers</a></li>
+        </ul>
+
+        <div class="header-icon">
+            <i class='bx bx-cart' ></i>
+            <i class='bx bx-search-alt-2'></i>
+        </div>
+
+        <div class="searchbar">
+            <input type="search" name="" id="" placeholder="search Here..">
+        </div>
+    </header>
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Start your day <br>with coffee</h1>
+            <p>Example Templates made by Paul Jerico Malabanan</p>
+            <a href="#" class="btn"> Shop now</a>
+        </div>
+        <div class="home-img">
+            <img src="img/main.png" alt="">
+        </div>
+    </section>
+    
+    <section class="section about" id="about">
+        <div class="about-img">
+            <img src="img/about.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h2>Our History</h2>
+            <p>Example Templates made by Paul Jerico Malabanan</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <div class="heading">
+            <h2>Our popular products</h2>
+        </div>
+        <div class="product-container">
+            <div class="box">
+                <img src="img/p1.png" alt="">
+                <h3>Americano product-container</h3>
+                <div class="content">
+                    <span>$25</span>
+                    <a href="#">Add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/p2.png" alt="">
+                <h3>Americano product-container</h3>
+                <div class="content">
+                    <span>$25</span>
+                    <a href="#">Add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/p3.png" alt="">
+                <h3>Americano product-container</h3>
+                <div class="content">
+                    <span>$25</span>
+                    <a href="#">Add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/p4.png" alt="">
+                <h3>Americano product-container</h3>
+                <div class="content">
+                    <span>$25</span>
+                    <a href="#">Add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/p5.png" alt="">
+                <h3>Americano product-container</h3>
+                <div class="content">
+                    <span>$25</span>
+                    <a href="#">Add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/p6.png" alt="">
+                <h3>Americano product-container</h3>
+                <div class="content">
+                    <span>$25</span>
+                    <a href="#">Add to cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="footer-box">
+            <h2>Coffee Shop</h2>
+            <p>Visit Us</p>
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-tiktok' ></i></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <h2>Support</h2>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Help & Support</a></li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Term of Use</a></li>
+            <li><a href="#">Product</a></li>
+        </div>
+        <div class="footer-box">
+            <h2>View Guides</h2>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Our Brances</a></li>
+            
+        </div>
+
+        <div class="footer-box">
+            <h3>Contact</h3>
+            <div class="contact">
+                <box-icon type='solid' name='map'></box-icon><span></span>
+                <box-icon name='phone' type='solid' ></box-icon><span></span>
+                <box-icon name='envelope-open' type='solid' ></box-icon><span></span>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
